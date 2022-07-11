@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Navbar */
+nav>div {
+    float: right;
+}
+
+nav:first-child {
+    width: 123.59px;
+}
+
+nav:last-child {
+    width: 98px;
+}
