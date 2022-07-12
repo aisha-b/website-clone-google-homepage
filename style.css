@@ -1,18 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	height: 100%;
+}
+
+/* Colors */
+.text-a {
+	color: #212121;
 }
 
 /* Navbar */
-nav>div {
-    float: right;
+nav {
+	height: 60px;
+	padding: 6px;
 }
 
-nav:first-child {
-    width: 123.59px;
+nav > div {
+	float: right;
+	height: 100%;
+	display: flex;
+	padding-right: 4px;
 }
 
-nav:last-child {
-    width: 98px;
+.nav-links div,
+.nav-icons div {
+	float: left;
+}
+
+.nav-links {
+	width: 121.59px;
+	padding: 12px 0;
+}
+
+.nav-links a {
+	font-size: 13px;
+	padding-left: 15px;
+	line-height: 24px;
+}
+
+.nav-links a:hover {
+	text-decoration: underline;
+}
+
+.nav-icons {
+	width: 96px;
+}
+
+.nav-icons div {
+	padding: 4px;
+	width: 48px;
+}
+
+.nav-icons div:first-child {
+	padding: 12px;
+}
+
+.nav-icons div:last-child {
+	padding: 8px;
+}
+
+.nav-icons img {
+	width: 32px;
+	height: 32px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.nav-icons svg {
+	width: 24px;
+	height: 24px;
+	color: #5f6368;
+	fill: currentColor;
 }
