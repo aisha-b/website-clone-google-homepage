@@ -63,24 +63,40 @@ nav > div {
 	width: 48px;
 }
 
-.nav-icons div:first-child {
-	padding: 12px;
+.g-apps-icon, .g-acc-icon {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.nav-icons div:last-child {
+.g-apps-icon {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	color: #5f6368;
+	fill: currentColor;
+}
+
+.g-apps-icon:hover {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(60,64,67,0.08);
 	padding: 8px;
 }
 
-.nav-icons img {
+.g-acc-icon {
 	width: 32px;
 	height: 32px;
 	object-fit: cover;
 	border-radius: 50%;
 }
 
-.nav-icons svg {
-	width: 24px;
-	height: 24px;
-	color: #5f6368;
-	fill: currentColor;
+.g-acc-icon:hover {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(60,64,67,0.08);
+	padding: 4px;
 }
+
+
